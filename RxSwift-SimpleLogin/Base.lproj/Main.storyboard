@@ -43,7 +43,10 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3s-8V-DKP">
-                                        <rect key="frame" x="81" y="136.5" width="38" height="30"/>
+                                        <rect key="frame" x="50" y="136.5" width="100" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="Fot-2a-CWp"/>
+                                        </constraints>
                                         <state key="normal" title="Login"/>
                                     </button>
                                 </subviews>
@@ -56,6 +59,9 @@
                             <constraint firstItem="K5B-af-TAo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="k3I-y3-Gwx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="x3s-8V-DKP" id="wZZ-yG-8Wg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
