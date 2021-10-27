@@ -60,7 +60,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="vqu-lO-tqJ" id="sWC-8n-6MW"/>
                         <outlet property="loginButton" destination="x3s-8V-DKP" id="wZZ-yG-8Wg"/>
+                        <outlet property="passwordTextField" destination="Gfi-No-nTB" id="Px2-Gz-DL2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
