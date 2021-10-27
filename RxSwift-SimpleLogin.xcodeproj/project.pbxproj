@@ -16,6 +16,7 @@
 		90185E6E27296006005FD1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90185E6C27296006005FD1D2 /* LaunchScreen.storyboard */; };
 		90185E7927296006005FD1D2 /* RxSwift_SimpleLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E7827296006005FD1D2 /* RxSwift_SimpleLoginTests.swift */; };
 		90185E8427296006005FD1D2 /* RxSwift_SimpleLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E8327296006005FD1D2 /* RxSwift_SimpleLoginUITests.swift */; };
+		90E63D9F2729680900D2DC10 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E63D9E2729680900D2DC10 /* LoginViewModel.swift */; };
 		C5D0CD87EEE93FED4D931CEE /* Pods_RxSwift_SimpleLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EE37A8E9BA8E442B402DCA /* Pods_RxSwift_SimpleLoginTests.framework */; };
 		D0C33787518BA98A469CCD6D /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409755274933C8AFA5A9E708 /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		90185E7F27296006005FD1D2 /* RxSwift-SimpleLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift-SimpleLoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90185E8327296006005FD1D2 /* RxSwift_SimpleLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_SimpleLoginUITests.swift; sourceTree = "<group>"; };
 		90185E8527296006005FD1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E63D9E2729680900D2DC10 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A8FBA956FA0E01CBC1BF06CA /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3EE37A8E9BA8E442B402DCA /* Pods_RxSwift_SimpleLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_SimpleLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C3C3BF81D548CE6570F7E3 /* Pods-RxSwift-SimpleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLogin.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLogin/Pods-RxSwift-SimpleLogin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				90185E6A27296006005FD1D2 /* Assets.xcassets */,
 				90185E6C27296006005FD1D2 /* LaunchScreen.storyboard */,
 				90185E6F27296006005FD1D2 /* Info.plist */,
+				90E63DA02729681200D2DC10 /* ViewModel */,
 			);
 			path = "RxSwift-SimpleLogin";
 			sourceTree = "<group>";
@@ -153,6 +156,14 @@
 				90185E8527296006005FD1D2 /* Info.plist */,
 			);
 			path = "RxSwift-SimpleLoginUITests";
+			sourceTree = "<group>";
+		};
+		90E63DA02729681200D2DC10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				90E63D9E2729680900D2DC10 /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		D4D96310DF7E244C7F758607 /* Pods */ = {
@@ -406,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E63D9F2729680900D2DC10 /* LoginViewModel.swift in Sources */,
 				90185E6627296005005FD1D2 /* LoginViewController.swift in Sources */,
 				90185E6227296005005FD1D2 /* AppDelegate.swift in Sources */,
 				90185E6427296005005FD1D2 /* SceneDelegate.swift in Sources */,
