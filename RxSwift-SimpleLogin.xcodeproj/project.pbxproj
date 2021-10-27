@@ -3,14 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4736CB693CB4482CAA488AE7 /* Pods_RxSwift_SimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257BE5F11DEE763D244868DA /* Pods_RxSwift_SimpleLogin.framework */; };
 		90185E6227296005005FD1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6127296005005FD1D2 /* AppDelegate.swift */; };
 		90185E6427296005005FD1D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6327296005005FD1D2 /* SceneDelegate.swift */; };
-		90185E6627296005005FD1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6527296005005FD1D2 /* ViewController.swift */; };
+		90185E6627296005005FD1D2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6527296005005FD1D2 /* LoginViewController.swift */; };
 		90185E6927296005005FD1D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90185E6727296005005FD1D2 /* Main.storyboard */; };
 		90185E6B27296006005FD1D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90185E6A27296006005FD1D2 /* Assets.xcassets */; };
 		90185E6E27296006005FD1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90185E6C27296006005FD1D2 /* LaunchScreen.storyboard */; };
@@ -47,7 +47,7 @@
 		90185E5E27296005005FD1D2 /* RxSwift-SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-SimpleLogin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90185E6127296005005FD1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90185E6327296005005FD1D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		90185E6527296005005FD1D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90185E6527296005005FD1D2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		90185E6827296005005FD1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90185E6A27296006005FD1D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90185E6D27296006005FD1D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 			children = (
 				90185E6127296005005FD1D2 /* AppDelegate.swift */,
 				90185E6327296005005FD1D2 /* SceneDelegate.swift */,
-				90185E6527296005005FD1D2 /* ViewController.swift */,
+				90185E6527296005005FD1D2 /* LoginViewController.swift */,
 				90185E6727296005005FD1D2 /* Main.storyboard */,
 				90185E6A27296006005FD1D2 /* Assets.xcassets */,
 				90185E6C27296006005FD1D2 /* LaunchScreen.storyboard */,
@@ -165,7 +165,6 @@
 				5681FC21C79D71FB2AB6B13F /* Pods-RxSwift-SimpleLoginTests.debug.xcconfig */,
 				3FC576787E8AD0EBC99B17C4 /* Pods-RxSwift-SimpleLoginTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -407,7 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90185E6627296005005FD1D2 /* ViewController.swift in Sources */,
+				90185E6627296005005FD1D2 /* LoginViewController.swift in Sources */,
 				90185E6227296005005FD1D2 /* AppDelegate.swift in Sources */,
 				90185E6427296005005FD1D2 /* SceneDelegate.swift in Sources */,
 			);
@@ -589,6 +588,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5Y2CH62YY;
 				INFOPLIST_FILE = "RxSwift-SimpleLogin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,6 +609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5Y2CH62YY;
 				INFOPLIST_FILE = "RxSwift-SimpleLogin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
