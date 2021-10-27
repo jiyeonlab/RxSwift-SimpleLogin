@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4736CB693CB4482CAA488AE7 /* Pods_RxSwift_SimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257BE5F11DEE763D244868DA /* Pods_RxSwift_SimpleLogin.framework */; };
 		90185E6227296005005FD1D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6127296005005FD1D2 /* AppDelegate.swift */; };
 		90185E6427296005005FD1D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6327296005005FD1D2 /* SceneDelegate.swift */; };
 		90185E6627296005005FD1D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E6527296005005FD1D2 /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		90185E6E27296006005FD1D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90185E6C27296006005FD1D2 /* LaunchScreen.storyboard */; };
 		90185E7927296006005FD1D2 /* RxSwift_SimpleLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E7827296006005FD1D2 /* RxSwift_SimpleLoginTests.swift */; };
 		90185E8427296006005FD1D2 /* RxSwift_SimpleLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90185E8327296006005FD1D2 /* RxSwift_SimpleLoginUITests.swift */; };
+		C5D0CD87EEE93FED4D931CEE /* Pods_RxSwift_SimpleLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3EE37A8E9BA8E442B402DCA /* Pods_RxSwift_SimpleLoginTests.framework */; };
+		D0C33787518BA98A469CCD6D /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409755274933C8AFA5A9E708 /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		257BE5F11DEE763D244868DA /* Pods_RxSwift_SimpleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_SimpleLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FC576787E8AD0EBC99B17C4 /* Pods-RxSwift-SimpleLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLoginTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLoginTests/Pods-RxSwift-SimpleLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		409755274933C8AFA5A9E708 /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		455AE21A271E85A2B7A5364C /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5681FC21C79D71FB2AB6B13F /* Pods-RxSwift-SimpleLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLoginTests/Pods-RxSwift-SimpleLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F68E87BC5FB9754B80CAE0A /* Pods-RxSwift-SimpleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLogin.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLogin/Pods-RxSwift-SimpleLogin.release.xcconfig"; sourceTree = "<group>"; };
 		90185E5E27296005005FD1D2 /* RxSwift-SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-SimpleLogin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90185E6127296005005FD1D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90185E6327296005005FD1D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		90185E7F27296006005FD1D2 /* RxSwift-SimpleLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift-SimpleLoginUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90185E8327296006005FD1D2 /* RxSwift_SimpleLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift_SimpleLoginUITests.swift; sourceTree = "<group>"; };
 		90185E8527296006005FD1D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8FBA956FA0E01CBC1BF06CA /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3EE37A8E9BA8E442B402DCA /* Pods_RxSwift_SimpleLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_SimpleLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6C3C3BF81D548CE6570F7E3 /* Pods-RxSwift-SimpleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-SimpleLogin.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-SimpleLogin/Pods-RxSwift-SimpleLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4736CB693CB4482CAA488AE7 /* Pods_RxSwift_SimpleLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D0CD87EEE93FED4D931CEE /* Pods_RxSwift_SimpleLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C33787518BA98A469CCD6D /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16E0ACA8205F2D0D08BA1B58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				257BE5F11DEE763D244868DA /* Pods_RxSwift_SimpleLogin.framework */,
+				409755274933C8AFA5A9E708 /* Pods_RxSwift_SimpleLogin_RxSwift_SimpleLoginUITests.framework */,
+				B3EE37A8E9BA8E442B402DCA /* Pods_RxSwift_SimpleLoginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		90185E5527296005005FD1D2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,8 @@
 				90185E7727296006005FD1D2 /* RxSwift-SimpleLoginTests */,
 				90185E8227296006005FD1D2 /* RxSwift-SimpleLoginUITests */,
 				90185E5F27296005005FD1D2 /* Products */,
+				D4D96310DF7E244C7F758607 /* Pods */,
+				16E0ACA8205F2D0D08BA1B58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +155,20 @@
 			path = "RxSwift-SimpleLoginUITests";
 			sourceTree = "<group>";
 		};
+		D4D96310DF7E244C7F758607 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6C3C3BF81D548CE6570F7E3 /* Pods-RxSwift-SimpleLogin.debug.xcconfig */,
+				8F68E87BC5FB9754B80CAE0A /* Pods-RxSwift-SimpleLogin.release.xcconfig */,
+				A8FBA956FA0E01CBC1BF06CA /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig */,
+				455AE21A271E85A2B7A5364C /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.release.xcconfig */,
+				5681FC21C79D71FB2AB6B13F /* Pods-RxSwift-SimpleLoginTests.debug.xcconfig */,
+				3FC576787E8AD0EBC99B17C4 /* Pods-RxSwift-SimpleLoginTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90185E8827296006005FD1D2 /* Build configuration list for PBXNativeTarget "RxSwift-SimpleLogin" */;
 			buildPhases = (
+				037290EBB4680500C3C806A5 /* [CP] Check Pods Manifest.lock */,
 				90185E5A27296005005FD1D2 /* Sources */,
 				90185E5B27296005005FD1D2 /* Frameworks */,
 				90185E5C27296005005FD1D2 /* Resources */,
+				D27F3482C093B2A046A27570 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90185E8B27296006005FD1D2 /* Build configuration list for PBXNativeTarget "RxSwift-SimpleLoginTests" */;
 			buildPhases = (
+				E91BA286C074EE28ACA4CE42 /* [CP] Check Pods Manifest.lock */,
 				90185E7027296006005FD1D2 /* Sources */,
 				90185E7127296006005FD1D2 /* Frameworks */,
 				90185E7227296006005FD1D2 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90185E8E27296006005FD1D2 /* Build configuration list for PBXNativeTarget "RxSwift-SimpleLoginUITests" */;
 			buildPhases = (
+				AA23B51344CDBED32ECD3FE0 /* [CP] Check Pods Manifest.lock */,
 				90185E7B27296006005FD1D2 /* Sources */,
 				90185E7C27296006005FD1D2 /* Frameworks */,
 				90185E7D27296006005FD1D2 /* Resources */,
+				C258EF87C158B80B96C9D8B6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037290EBB4680500C3C806A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-SimpleLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA23B51344CDBED32ECD3FE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C258EF87C158B80B96C9D8B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests/Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D27F3482C093B2A046A27570 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-SimpleLogin/Pods-RxSwift-SimpleLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-SimpleLogin/Pods-RxSwift-SimpleLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift-SimpleLogin/Pods-RxSwift-SimpleLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E91BA286C074EE28ACA4CE42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-SimpleLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		90185E5A27296005005FD1D2 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		90185E8927296006005FD1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C3C3BF81D548CE6570F7E3 /* Pods-RxSwift-SimpleLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +602,7 @@
 		};
 		90185E8A27296006005FD1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F68E87BC5FB9754B80CAE0A /* Pods-RxSwift-SimpleLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +622,7 @@
 		};
 		90185E8C27296006005FD1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5681FC21C79D71FB2AB6B13F /* Pods-RxSwift-SimpleLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +645,7 @@
 		};
 		90185E8D27296006005FD1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FC576787E8AD0EBC99B17C4 /* Pods-RxSwift-SimpleLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +668,7 @@
 		};
 		90185E8F27296006005FD1D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8FBA956FA0E01CBC1BF06CA /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +689,7 @@
 		};
 		90185E9027296006005FD1D2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455AE21A271E85A2B7A5364C /* Pods-RxSwift-SimpleLogin-RxSwift-SimpleLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
